@@ -1,0 +1,16 @@
+Test instance:
+Numbers: [1, 2, 3, 4, 5]
+Target: 1
+N=32, M=1
+Iterations: 4
+
+Results:
+√  00001: 4091 times  ->  [1] = 1
+X  10000:    1 times  ->  [5] = 5
+X  01100:    1 times  ->  [3, 4] = 7
+X  10111:    1 times  ->  [1, 2, 3, 5] = 11
+X  00100:    1 times  ->  [3] = 3
+X  00010:    1 times  ->  [2] = 2
+
+Accuracy: 99.88% (4091/4096)
+Grover Call 4 Times
